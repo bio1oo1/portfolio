@@ -82,7 +82,7 @@ export default function Header() {
             direction={"row"}
             spacing={6}
           >
-            <Button
+            {/* <Button
               as={"a"}
               display={{ base: "inline-flex", md: "inline-flex" }}
               fontSize={"sm"}
@@ -99,7 +99,7 @@ export default function Header() {
               }}
             >
               View Resume
-            </Button>
+            </Button> */}
           </Stack>
         </Flex>
 
