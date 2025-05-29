@@ -3,15 +3,15 @@ export const hero = {
   about:
     "I've been a programmer for 6+ years, currently specializing in Web3, Solidity after enough experience in React.js, Node.js and other relevant skills. Furthermore, I have a passion for learning new skills, and I'm extremely dedicated to my work with crazy & creative ideas by providing new solutions! Looking for a new remote position with full of challenges in a friendly team.",
   titles: ["Full Stack", "Blockchain", "Smart Contract", "Web3"],
-  email: "matthewhernandez1k4#gmail.com",
-  phone: "+1 224 328 1725",
+  email: "matthewhernandez@gmail.com",
+  phone: "+1 224 382 1725",
   github: "https://github.com/bio1oo1",
   // linkedin: "https://www.linkedin.com/in/Matthew-masaki/",
   linkedin: "",
 
   // resume: "https://drive.google.com/file/d/1hyohX5tqKm4P-7xoMc3UIblxw3mQ-ugF/view?usp=sharing",
-  resume: `https://drive.google.com/file/d/1XbrLGEc8vYUIG8lmjSWIjSw2b-F3YfQB/view?usp=sharing`
-  // resume: "",
+  // resume: `https://drive.google.com/file/d/1XbrLGEc8vYUIG8lmjSWIjSw2b-F3YfQB/view?usp=sharing`
+  resume: "",
 
 };
 
