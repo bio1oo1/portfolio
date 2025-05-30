@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Matthew hernandez",
+  title: "Hi, I'm Matthew",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -35,11 +35,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/bio1oo1",
   linkedin: "/",
-  gmail: "matthewhernandez@gmail.com",
+  gmail: "matthewhernandez1k4@gmail.com",
   gitlab: "/",
   facebook: "/",
   medium: "/",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/Matthew-hernandezall",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,12 +54,12 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
+    emoji(
+      "⚡ Designed and developed scalable backend services and serverless infrastructure to handle wallet authentication, token-based access, and real-time on-chain events."
+    ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks - It's OK!"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
-    emoji(
-      "⚡ Designed and developed scalable backend services and serverless infrastructure to handle wallet authentication, token-based access, and real-time on-chain events."
     )
   ],
 
@@ -133,23 +133,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Texas A&M University",
+      logo: require("./assets/images/TAM-LogoBox.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2016 - 2020",
+      desc: " Top 10% of program; completed coursework in Software Engineering, Web Security, and Operating Systems.",
+      // descBullets: ["Over three decades at Southwest Airlines, he has been instrumental in transforming the airline into a prominent national brand, overseeing its expansion from a regional carrier to a major industry player."]
     }
   ]
 };
@@ -161,7 +150,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "92%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -182,28 +171,38 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Azumo",
+      companylogo: require("./assets/images/Azumo_logo.png"),
+      date: "May 2024 – May 2025",
+      // desc: "Azumo.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I work as a full-stack developer here, responsible for building, deploying and maintaining internal web applications.",
+        "Developed indexed database architecture using SQL procedures and triggers for 10 different applications.",
+        "Increased the performance of 20 customer-facing webpages and increased revenue by 40%.",
+        "Developed and deployed microservice-based applications in AWS environment, increasing system reliability by 20% with strong emphasis on maintainable code."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "ITVibes",
+      companylogo: require("./assets/images/ITVibes_logo.png"),
+      date: "Jul 2022 – Nov 2024",
+      descBullets: [
+        "Did all sorts of work such as React/Next.js app development, backend Nodejs/Postgres development, researching and investigating problem-solving technologies, as well as many devops-related GCloud, Terraform etc things.",
+        "Wrote detailed technical documentation for APIs and microservices, increasing team efficiency and knowledge sharing.",
+        "Examined and optimized front-end Javascript codebase, enhancing performance and reducing load times by 15%."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Accenture",
+      companylogo: require("./assets/images/accenture_logo.png"),
+      date: "Jun 2015 – Jul 2015",
+      descBullets: [
+        "Developed a booking application using React and Laravel to let users book a service online and get real-time updates on their progress, increasing the customer acquisition and retention rate by around 50% in three months.",
+        "Collaborated closely with designers to create clean and intuitive, responsive interfaces for web applications, utilizing various front-end libraries and techniques such as React.js, Bootstrap, MUI and so on.",
+        "Implemented real-time chat functionality using Web Sockets, Laravel Queue, Pusher, Laravel Echo, cron jobs, and integrated Twilio for SMS, Stripe for payments, and email notifications, etc."
+      ]
     }
   ]
 };
@@ -220,28 +219,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.jpg"),
+      projectName: "fireflydex",
+      projectDesc: "Decentralized exchange on Manta chain where users can create pools and exchange between tokens.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://fireflydex.io/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/adsinthe.png"),
+      projectName: "Tide Protocol",
+      projectDesc: "Enables users to launch Web3 point-based community campaigns and embed them into websites.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.tideprotocol.xyz/"
         }
       ]
     }
@@ -259,11 +258,11 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Delivered Critical Features on Time",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "FSuccessfully developed and launched major features or products that improved user engagement or revenue.",
+      image: require("./assets/images/deliver_feature.jpg"),
+      imageAlt: "Delivered Critical Features on Time..",
       footerLink: [
         {
           name: "Certification",
@@ -280,11 +279,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Improved Application Performance",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Optimized frontend code to reduce page load times by 30% or more.",
+      image: require("./assets/images/application of performance.png"),
+      imageAlt: "Improved Application Performance..",
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -294,10 +293,10 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Increased Test Coverage",
+      subtitle: "Implemented automated testing frameworks that improved code reliability and reduced bugs in production by 40%.",
+      image: require("./assets/images/test coverage.jpg"),
+      imageAlt: "Increased Test Coverage..",
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -325,7 +324,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/@Matthewhernandez/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -346,7 +345,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/Matthewhernandez-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
@@ -355,16 +354,16 @@ const talkSection = {
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Matthew-hernandez-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Resume Section
 const resumeSection = {
@@ -378,17 +377,17 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Let's Work Together!",
+  number: "+1 (224) 328 1725",
+  email_address: "Matthewhernandez1k4@gmail.com"
 };
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -406,9 +405,9 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
+  // podcastSection,
   contactInfo,
-  twitterDetails,
+  // twitterDetails,
   isHireable,
   resumeSection
 };
