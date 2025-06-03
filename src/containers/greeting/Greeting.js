@@ -52,9 +52,14 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          <div className="greeting-image-div" style={{marginLeft : "20px"}}>
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              // <DisplayLottie animationData={landingPerson} />
+              <img
+                alt="man sitting on table"
+                width={"100%"}
+                src={require("../../assets/images/promise_t.jpeg")}
+              ></img>
             ) : (
               <img
                 alt="man sitting on table"
