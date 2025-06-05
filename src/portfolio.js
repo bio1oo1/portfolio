@@ -23,7 +23,7 @@ const greeting = {
   username: "Matthew hernandez",
   title: "Hi, I'm Matthew",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer (Full stack & Blockchain) 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native Python and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -51,16 +51,18 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Full Stack developer with deep experience in building responsive, high-performance web applications",
   skills: [
+    
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Achieved a 20% increase in user engagement and a 15% reduction in page load times, alongside securing a 100% SEO score."
     ),
+    emoji("⚡ Developed a booking application using React and Laravel, increasing customer acquisition and retention by 50% in three months."),
     emoji(
-      "⚡ Designed and developed scalable backend services and serverless infrastructure to handle wallet authentication, token-based access, and real-time on-chain events."
+      "⚡ Reduced deployment time by 50% by automating CI/CD pipelines with CircleCI."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks - It's OK!"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -176,9 +178,9 @@ const workExperiences = {
       date: "May 2024 – May 2025",
       // desc: "Azumo.",
       descBullets: [
-        "I work as a full-stack developer here, responsible for building, deploying and maintaining internal web applications.",
-        "Developed indexed database architecture using SQL procedures and triggers for 10 different applications.",
-        "Increased the performance of 20 customer-facing webpages and increased revenue by 40%.",
+        "Developed a closed NFT marketplace on avalanche network using Next.js, TypeScript, C#, Nethereum and Solidity, where only verified artists can deploy series and mint NFTs.",
+        "Implemented Datadog for monitoring and analytics, ensuring robust performance and quick identification of any issues.",
+        "Orchestrated a blockchain infrastructure using 100֡+ nodes on AWS and Azure.",
         "Developed and deployed microservice-based applications in AWS environment, increasing system reliability by 20% with strong emphasis on maintainable code."
       ]
     },
@@ -189,7 +191,7 @@ const workExperiences = {
       date: "Jul 2022 – Nov 2024",
       descBullets: [
         "Did all sorts of work such as React/Next.js app development, backend Nodejs/Postgres development, researching and investigating problem-solving technologies, as well as many devops-related GCloud, Terraform etc things.",
-        "Wrote detailed technical documentation for APIs and microservices, increasing team efficiency and knowledge sharing.",
+        "Achieved a 20% increase in user engagement and a 15% reduction in page load times, alongside securing a 100% SEO score.",
         "Examined and optimized front-end Javascript codebase, enhancing performance and reducing load times by 15%."
       ]
     },
